@@ -10,4 +10,8 @@ def my_all?(collection)
     end
      index += 1   
   end
+  
+  
+  # if it makes it through the whole loop, then all of them must be true 
+  true 
 end

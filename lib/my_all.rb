@@ -5,10 +5,7 @@ require 'pry'
 def my_all?(collection)
   index = 0 
   while index < collection.length 
-   # return collection[index] if yield(collection[index])
-    
-    if yield(collection[index])
-      return collection[index]
+    if !yield(collection[index])   # will return true or false 
     end
      index += 1   
   end
